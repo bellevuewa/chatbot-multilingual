@@ -1,5 +1,5 @@
 # Introduction 
-Chatbot with multilingual support for COVID-19 related questions. 
+Chatbot with multilingual support for COVID-19 related questions by City of Bellevue, WA. 
 
 # Getting Started
 There are three major pieces.
