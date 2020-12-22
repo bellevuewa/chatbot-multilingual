@@ -1,0 +1,306 @@
+﻿{
+  "id": "201",
+  "name": "CardIntro_MultiLingual",
+  "value": [
+    {
+      "language": "en",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "I'm your COVID-19 ChatBot. I know many support resources you may find helpful.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Hi, I’m MyBellevue Chatbot.",
+                    "size": "Large",
+                    "color": "Accent",
+                    "spacing": "None"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "During this difficult time, the city has posted a lot of information about services and resources. I can help you find what you need. Please do not share any personal information about yourself or your health. I cannot tell you if you have COVID-19.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "I Agree",
+            "size": "Medium",
+            "style": "positive",
+            "data": {
+              "Consent": 1,
+              "Language": "en"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "es",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Soy tu ChatBot COVID-19. Conozco muchos recursos de apoyo que pueden serle útiles.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Hola, soy MyBellevue Chatbot.",
+                    "size": "Large",
+                    "color": "Accent",
+                    "spacing": "None"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "Durante este momento difícil, la ciudad ha publicado mucha información sobre servicios y recursos. Puedo ayudarle a encontrar lo que necesita. Por favor no comparta ninguna información personal sobre usted o su salud. No puedo decirle si tienes COVID-19.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Estoy de acuerdo",
+            "size": "Medium",
+            "style": "positive",
+            "data": {
+              "Consent": 1,
+              "Language": "es"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "ko",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "나는 당신의 COVID-19 ChatBot입니다. 도움이 될만한 많은 지원 리소스를 알고 있습니다.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "안녕하세요, MyBellevue Chatbot입니다.",
+                    "size": "Large",
+                    "color": "Accent",
+                    "spacing": "None"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "이 어려운시기에 도시는 서비스와 자원에 관한 많은 정보를 게시했습니다. 필요한 것을 찾도록 도와 드릴 수 있습니다. 본인이나 건강에 관한 개인 정보를 공유하지 마십시오. COVID-19가 있는지 말할 수 없습니다.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "동의한다",
+            "size": "Medium",
+            "style": "positive",
+            "data": {
+              "Consent": 1,
+              "Language": "ko"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "zh-Hant",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "我是您的COVID-19聊天機器人。我知道許多相關資源可能對您有所幫助。",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "我是MyBellevue聊天機器人。",
+                    "size": "Large",
+                    "color": "Accent",
+                    "spacing": "None"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "在這個困難時期，貝爾優市發布了很多相關的社區服務和資源信息。我可以幫助您找到所需信息。請不要分享任何有關您自己的個人信息或健康信息。我無法告訴您您是否患有COVID-19。",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "我同意",
+            "size": "Medium",
+            "style": "positive",
+            "data": {
+              "Consent": 1,
+              "Language": "zh-Hant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "vi",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Tôi là ChatBot COVID-19 của bạn. Tôi biết nhiều tài nguyên hỗ trợ bạn có thể thấy hữu ích.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Xin chào, tôi là MyBellevue Chatbot.",
+                    "size": "Large",
+                    "color": "Accent",
+                    "spacing": "None"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "Trong thời gian khó khăn này, thành phố đã đăng tải rất nhiều thông tin về dịch vụ và tài nguyên. Tôi có thể giúp bạn tìm thấy những gì bạn cần. Xin vui lòng không chia sẻ bất kỳ thông tin cá nhân về bản thân hoặc sức khỏe của bạn. Tôi không thể cho bạn biết nếu bạn có COVID-19.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Tôi đồng ý",
+            "size": "Medium",
+            "style": "positive",
+            "data": {
+              "Consent": 1,
+              "Language": "vi"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "ru",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Я твой COVID-19 ChatBot. Я знаю много ресурсов поддержки, которые вы можете найти полезными.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Привет, я MyBellevue Chatbot. Здраствуйте",
+                    "size": "Large",
+                    "color": "Accent",
+                    "spacing": "None"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "В это трудное время город разместил много информации об услугах и ресурсах. Я могу помочь вам найти то, что вам нужно. Пожалуйста, не делитесь никакой личной информацией о себе или своем здоровье. Я не могу сказать вам, есть ли у вас COVID-19.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Согласен",
+            "size": "Medium",
+            "style": "positive",
+            "data": {
+              "Consent": 1,
+              "Language": "ru"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

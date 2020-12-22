@@ -1,0 +1,30 @@
+﻿{
+  "id": "204",
+  "name": "DefaultNoAnswer_MultiLingual",
+  "value": [
+    {
+      "language": "en",
+      "value": "I cannot find a good answer. Please refer to [the city's COVID-19 community resources](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources), or reach out to the city [directly via email](servicefirst@bellevuewa.gov) or by phone at 425-452-6800 (Monday - Friday, 8 a.m. - 5 p.m). If you need additional information regarding COVID-19, please refer to [Seattle & King County Public Health](https://www.kingcounty.gov/depts/health.aspx), or [the CDC (Centers for Disease Control and Prevention)](https://www.cdc.gov/)."
+    },
+    {
+      "language": "es",
+      "value": "No puedo encontrar una buena respuesta. Consulte [los recursos comunitarios de COVID-19 de la ciudad](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources), o comuníquese con la ciudad [directamente por correo electrónico](servicefirst@bellevuewa.gov) o por teléfono al 1-844-590-8948 (de lunes a viernes de 8 am a 5 pm). Si necesita información adicional sobre COVID-19, consulte [Salud Pública del Condado de Seattle y King](https://www.kingcounty.gov/depts/health.aspx), o [los CDC (Centros para el Control y la Prevención de Enfermedades)](https://www.cdc.gov/)."
+    },
+    {
+      "language": "ko",
+      "value": "좋은 대답을 찾을 수 없습니다. [도시의 COVID-19 커뮤니티 리소스](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources)를 참조하거나 [이메일](servicefirst@bellevuewa.gov) 또는 전화 1-844-537-0365 (월요일-금요일, 오전 8시-오후 5시)을 통해 직접 도시. COVID-19에 관한 추가 정보가 필요하면 [시애틀 & 킹 카운티 공중 보건](https://www.kingcounty.gov/depts/health.aspx) 또는 CDC (질병 통제 예방 센터)를 참조하십시오. )](https://www.cdc.gov/)."
+    },
+    {
+      "language": "zh-Hant",
+      "value": "我找不到一個好的回答。 請參閱[貝爾優市的COVID-19社區資源](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources)，或與 [可以直接通過電子郵件](servicefirst@bellevuewa.gov）或通過電話1-844-590-8945（普通話）, 1-844-537-0364（廣東話）（星期一至星期五，上午8點至下午5點）致電市政府。 如果您需要有關COVID-19的其他信息，請查詢[西雅圖和金縣公共衛生](https://www.kingcounty.gov/depts/health.aspx)或[CDC（疾病控制與預防中心)](https://www.cdc.gov/)。"
+    },
+    {
+      "language": "vi",
+      "value": "Tôi không thể tìm thấy một câu trả lời tốt. Vui lòng tham khảo [tài nguyên cộng đồng COVID-19 của thành phố](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources), hoặc liên hệ trực tiếp với thành phố [qua email](servicefirst@bellevuewa.gov) hoặc qua điện thoại tại 1-844-590-8949 (Thứ Hai - Thứ Sáu, 8 giờ sáng - 5 giờ chiều). Nếu bạn cần thêm thông tin về COVID-19, vui lòng tham khảo [Sức khỏe cộng đồng quận Seattle & King](https://www.kingcounty.gov/depts/health.aspx) hoặc [CDC (Trung tâm kiểm soát và phòng ngừa dịch bệnh )](https://www.cdc.gov/)."
+    },
+    {
+      "language": "ru",
+      "value": "Я не могу найти хороший ответ. Пожалуйста, обратитесь к [городским ресурсам сообщества COVID-19](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources) или обратитесь к город [напрямую по электронной почте](servicefirst@bellevuewa.gov) или по телефону 1-844-590-8947 (понедельник - пятница, с 8:00 до 17:00). Если вам нужна дополнительная информация о COVID-19, обратитесь к [Отдел общественного здравоохранения округа Сиэтл и Кинг](https://www.kingcounty.gov/depts/health.aspx) или [CDC (Центры по контролю и профилактике заболеваний). )](https://www.cdc.gov/)."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+﻿{
+  "id": "202",
+  "name": "CardAfterAgreeing_MultiLingual",
+  "value": [
+    {
+      "language": "en",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Please go ahead and ask COVID-19 related questions.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Please go ahead and ask COVID-19 related questions.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "language": "es",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Siga adelante y haga preguntas relacionadas con COVID-19.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Siga adelante y haga preguntas relacionadas con COVID-19.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "language": "ko",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "계속해서 COVID-19 관련 질문을하십시오.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "계속해서 COVID-19 관련 질문을하십시오.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "language": "zh-Hant",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "請詢問有關COVID-19的問題。",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "請詢問有關COVID-19的問題。",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "language": "vi",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Hãy tiếp tục và hỏi câu hỏi liên quan đến COVID-19.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Hãy tiếp tục và hỏi câu hỏi liên quan đến COVID-19.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "language": "ru",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Пожалуйста, продолжайте и задавайте вопросы, связанные с COVID-19.",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Пожалуйста, продолжайте и задавайте вопросы, связанные с COVID-19.",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

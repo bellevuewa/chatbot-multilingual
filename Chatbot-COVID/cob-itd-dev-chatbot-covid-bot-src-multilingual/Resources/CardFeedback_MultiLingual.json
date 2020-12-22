@@ -1,0 +1,374 @@
+﻿{
+  "id": "203",
+  "name": "CardFeedback_MultiLingual",
+  "value": [
+    {
+      "language": "en",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Is the answer above helpful to you?",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Is the answer above helpful to you?",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Yes",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 1,
+              "question": "__question__",
+              "answer": "__answer__",
+"translatedQuestion": "__translatedQuestion__",
+"translatedAnswer": "__translatedAnswer__",
+              "language": "en"
+            }
+          },
+          {
+            "type": "Action.Submit",
+            "title": "No",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 0,
+              "question": "__question__",
+              "answer": "__answer__",
+"translatedQuestion": "__translatedQuestion__",
+"translatedAnswer": "__translatedAnswer__",
+
+              "language": "en"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "es",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "¿Le resulta útil la respuesta anterior?",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "¿Le resulta útil la respuesta anterior?",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Si",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 1,
+              "question": "__question__",
+              "answer": "__answer__",
+"translatedQuestion": "__translatedQuestion__",
+"translatedAnswer": "__translatedAnswer__",
+
+              "language": "es"
+            }
+          },
+          {
+            "type": "Action.Submit",
+            "title": "No",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 0,
+              "question": "__question__",
+              "answer": "__answer__",
+              "translatedQuestion": "__translatedQuestion__",
+              "translatedAnswer": "__translatedAnswer__",
+              "language": "es"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "ko",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "위의 답변이 도움이 되셨습니까?",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "위의 답변이 도움이 되셨습니까?",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "예",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 1,
+              "question": "__question__",
+              "answer": "__answer__",
+"translatedQuestion": "__translatedQuestion__",
+"translatedAnswer": "__translatedAnswer__",
+              "language": "ko"
+            }
+          },
+          {
+            "type": "Action.Submit",
+            "title": "아니요",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 0,
+              "question": "__question__",
+              "answer": "__answer__",
+              "translatedQuestion": "__translatedQuestion__",
+              "translatedAnswer": "__translatedAnswer__",
+              "language": "ko"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "zh-Hant",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "上面的答案對您有幫助嗎？",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "上面的答案對您有幫助嗎？",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "是",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 1,
+              "question": "__question__",
+              "answer": "__answer__",
+"translatedQuestion": "__translatedQuestion__",
+"translatedAnswer": "__translatedAnswer__",
+              "language": "zh-Hant"
+            }
+          },
+          {
+            "type": "Action.Submit",
+            "title": "否",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 0,
+              "question": "__question__",
+              "answer": "__answer__",
+              "translatedQuestion": "__translatedQuestion__",
+              "translatedAnswer": "__translatedAnswer__",
+              "language": "zh-Hant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "vi",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Câu trả lời trên có hữu ích cho bạn không?",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Câu trả lời trên có hữu ích cho bạn không?",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Có",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 1,
+              "question": "__question__",
+              "answer": "__answer__",
+"translatedQuestion": "__translatedQuestion__",
+"translatedAnswer": "__translatedAnswer__",
+              "language": "vi"
+            }
+          },
+          {
+            "type": "Action.Submit",
+            "title": "Không",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 0,
+              "question": "__question__",
+              "answer": "__answer__",
+              "translatedQuestion": "__translatedQuestion__",
+              "translatedAnswer": "__translatedAnswer__",
+              "language": "vi"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "language": "ru",
+      "value": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "speak": "Вам полезен ответ выше? Нашли ли вы ответ выше полезным? ",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Вам полезен ответ выше? Нашли ли вы ответ выше полезным?",
+                    "separator": true,
+                    "wrap": true,
+                    "spacing": "Small"
+                  }
+                ],
+                "horizontalAlignment": "Left",
+                "verticalContentAlignment": "Center"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Да",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 1,
+              "question": "__question__",
+              "answer": "__answer__",
+"translatedQuestion": "__translatedQuestion__",
+"translatedAnswer": "__translatedAnswer__",
+              "language": "ru"
+            }
+          },
+          {
+            "type": "Action.Submit",
+            "title": "Нет",
+            "size": "Medium",
+            "style": "default",
+            "data": {
+              "helpful": 0,
+              "question": "__question__",
+              "answer": "__answer__",
+              "translatedQuestion": "__translatedQuestion__",
+              "translatedAnswer": "__translatedAnswer__",
+              "language": "ru"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

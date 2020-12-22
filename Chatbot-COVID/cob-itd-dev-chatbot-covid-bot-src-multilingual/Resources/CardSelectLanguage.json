@@ -1,0 +1,71 @@
+﻿{
+  "id": "200",
+  "name": "CardSelectLanguage",
+  "value": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "Container",
+        "bleed": true,
+        "style": "accent",
+        "items": [
+          {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "MyBellevue Chatbot",
+            "horizontalAlignment": "Center"
+          }
+        ]
+      },
+      {
+        "type": "TextBlock",
+        "text": "Please select your language preference:",
+        "horizontalAlignment": "Center"
+      },
+      {
+        "type": "Input.ChoiceSet",
+        "id": "choiceset",
+        "style": "expanded",
+        "value": "en",
+        "choices": [
+          {
+            "title": "English",
+            "value": "en"
+          },
+          {
+            "title": "Español - Spanish",
+            "value": "es"
+          },
+          {
+            "title": "中文 - Chinese",
+            "value": "zh-Hant"
+          },
+          {
+            "title": "Việt - Vietnamese",
+            "value": "vi"
+          },
+          {
+            "title": "한국어 - Korean",
+            "value": "ko"
+          },
+          {
+            "title": "русский - Russian",
+            "value": "ru"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Submit",
+        "data": {
+          "Action": "languageselector"
+        }
+      }
+    ]
+  }
+}

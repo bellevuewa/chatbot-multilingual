@@ -1,0 +1,30 @@
+﻿{
+  "id": "205",
+  "name": "MessageAfterFeedbackHelpful_MultiLingual",
+  "value": [
+    {
+      "language": "en",
+      "value": "Thank you for your feedback. This is great to know."
+    },
+    {
+      "language": "es",
+      "value": "Gracias por sus comentarios. Esto es genial saberlo."
+    },
+    {
+      "language": "ko",
+      "value": "의견을 보내 주셔서 감사합니다. 많은 도움이 됩니다."
+    },
+    {
+      "language": "zh-Hant",
+      "value": "感謝您的反饋意見。 很高興知道這對您有幫助。"
+    },
+    {
+      "language": "vi",
+      "value": "Cảm ơn phản hôi của bạn. Thật tuyệt khi biết điều này."
+    },
+    {
+      "language": "ru",
+      "value": "Спасибо за ваш отзыв. "
+    }
+  ]
+}

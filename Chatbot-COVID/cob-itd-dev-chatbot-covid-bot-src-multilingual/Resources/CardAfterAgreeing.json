@@ -1,0 +1,28 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "speak": "I'm your COVID-19 ChatBot. I know many support resources you may find helpful.",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Please go ahead and ask COVID-19 related questions. Currently only English is supported, but you may find the following resources in different languages helpful: [English](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources); [Español](https://bellevuewa.gov/sites/default/files/media/pdf_document/2020/Covid-19-Spanish-4-8-20-comm-resources.pdf); [中文](https://bellevuewa.gov/sites/default/files/media/pdf_document/2020/Covid-19-Chinese-4-8-20-comm-resources.pdf); [한국어](https://bellevuewa.gov/sites/default/files/media/pdf_document/2020/Covid-19-Korean-4-8-20-comm-resources.pdf); [Pусский](https://bellevuewa.gov/sites/default/files/media/pdf_document/2020/Covid-19-Russian-4-8-20-comm-resources.pdf).",
+              "separator": true,
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ],
+          "horizontalAlignment": "Left",
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    }
+  ]
+}

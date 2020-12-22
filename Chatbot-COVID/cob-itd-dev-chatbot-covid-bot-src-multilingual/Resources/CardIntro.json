@@ -1,0 +1,46 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "speak": "I'm your COVID-19 ChatBot. I know many support resources you may find helpful.",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Hi, I’m the city’s virtual assistant.",
+              "size": "Large",
+              "color": "Accent",
+              "spacing": "None"
+            },
+            {
+              "type": "TextBlock",
+              "text": "During this difficult time, the city has posted a lot of information about services and resources. I can help you find what you need. Please do not share any personal information about yourself or your health. I cannot tell you if you have COVID-19.",
+              "separator": true,
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ],
+          "horizontalAlignment": "Left",
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "I Agree",
+      "size": "Medium",
+      "style": "positive",
+      "data": {
+        "Consent": 1
+      }
+    }
+  ]
+}

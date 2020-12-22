@@ -1,0 +1,52 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "speak": "I'm your COVID-19 ChatBot. Please help provide feedback.",
+  "body": [
+      {
+          "type": "ColumnSet",
+          "columns": [
+              {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                      {
+                          "type": "TextBlock",
+                          "text": "Is the answer above helpful to you?",
+                          "separator": true,
+                          "wrap": true,
+                          "spacing": "Small"
+                      }
+                  ],
+                  "horizontalAlignment": "Left",
+                  "verticalContentAlignment": "Center"
+              }
+          ]
+      }
+  ],
+  "actions": [
+    {
+        "type": "Action.Submit",
+        "title": "Yes",
+        "size": "Medium",
+        "style": "default",
+        "data": {
+        "helpful": 1,
+        "question": "__question__",
+        "answer": "__answer__"
+      }
+    },
+    {
+        "type": "Action.Submit",
+        "title": "No",
+        "size": "Medium",
+        "style": "default",
+        "data": {
+          "helpful": 0,
+          "question": "__question__",
+          "answer":  "__answer__"
+        }
+    }
+  ]
+}

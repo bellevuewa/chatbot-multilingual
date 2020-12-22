@@ -1,0 +1,30 @@
+﻿{
+  "id": "206",
+  "name": "MessageAfterFeedbackNotHelpful_MultiLingual",
+  "value": [
+    {
+      "language": "en",
+      "value": "Thank you for your feedback. Here are additional [resources](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources) you may find helpful. If you need further assistance, please email servicefirst@bellevuewa.gov or call 425-452-6800 (Monday - Friday, 8 a.m. - 5 p.m)."
+    },
+    {
+      "language": "es",
+      "value": "Gracias por sus comentarios. Aquí hay más [recursos](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources) que pueden serle útiles. Si necesita más ayuda, envíe un correo electrónico a servicefirst@bellevuewa.gov o llame al 1-844-590-8948 (de lunes a viernes, de 8 a.m. a 5 p.m.)."
+    },
+    {
+      "language": "ko",
+      "value": "의견을 보내 주셔서 감사합니다. 도움이 될만한 추가 [자원](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources)이 있습니다. 추가 지원이 필요한 경우 servicefirst@bellevuewa.gov로 이메일을 보내거나 1-844-537-0365 (월요일-금요일, 오전 8시-오후 5시)으로 전화하십시오."
+    },
+    {
+      "language": "zh-Hant",
+      "value": "感謝您的反饋意見。這是對您可能會有所幫助的其他[資源](https://bellevuewa.gov/chinese/covid-19/community-resources)。 如果您需要進一步的幫助，請發送電子郵件至servicefirst@bellevuewa.gov或致電1-844-590-8945（普通話）, 1-844-537-0364（廣東話）（星期一-星期五，上午8點-下午5點）。"
+    },
+    {
+      "language": "vi",
+      "value": "Cảm ơn phản hôi của bạn. Dưới đây là [tài nguyên](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources) bổ sung bạn có thể thấy hữu ích. Nếu bạn cần hỗ trợ thêm, vui lòng gửi email servicefirst@bellevuewa.gov hoặc gọi 1-844-590-8949 (Thứ Hai - Thứ Sáu, 8 giờ sáng - 5 giờ chiều)."
+    },
+    {
+      "language": "ru",
+      "value": "Спасибо за ваш отзыв. Вот дополнительные [ресурсы](https://bellevuewa.gov/city-government/departments/city-managers-office/communications/emergencies/covid-19/community-resources), которые вы можете найти полезными. Если вам нужна дополнительная помощь, пожалуйста, напишите servicefirst@bellevuewa.gov или позвоните по номеру 1-844-590-8947 (понедельник - пятница, с 8:00 до 17:00)."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>MyBellevue Chatbot: Assisting You with COVID-19 Related Questions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      crossorigin="anonymous"
+      src="https://cdn.botframework.com/botframework-webchat/4.8.0/webchat-es5.js"
+    ></script>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      #webchat {
+    border: 1px solid#efefef;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    height: 100%;
+    overflow: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 96vh;
+max-height: 98%x;
+    overflow-y: visible;
+    overflow-x: hidden;
+    display: flex;
+    flex-flow: column-reverse;
+         }
+    </style>
+  </head>
+  <body>
+    <div id="webchat" role="main"></div>
+    <script>
+        function DisableButton(button)
+        {
+          if (!button.disabled)
+          {
+            button.disabled = true;
+            button.style["cursor"] = "not-allowed";
+            button.style["color"] = "#c0c0c0";
+            button.style["background-color"] = "#ffffff";
+          }          
+        };
+
+        var selectLanguageData = {
+  "en": {"title": "MyBellevue Chatbot for COVID-19 Support", "message": "Please select your language preference:", "submit": "Submit"},
+  "es": {"title": "MyBellevue Chatbot para soporte COVID-19", "message": "Por favor seleccione su idioma de preferencia:", "submit": "Enviar"}, 
+  "ko": {"title": "COVID-19 지원을위한 MyBellevue Chatbot", "message": "선호하는 언어를 선택하십시오 :", "submit": "제출"}, 
+  "zh-Hant": {"title": "MyBellevue聊天機器人提供COVID-19支持", "message": "請選擇您熟悉的語言：", "submit": "提交"}, 
+  "vi": {"title": "MyBellevue Chatbot để hỗ trợ COVID-19", "message": "Vui lòng chọn tùy chọn ngôn ngữ của bạn:", "submit": "Gửi đi"}, 
+  "ru": {"title": "MyBellevue Chatbot для поддержки COVID-19", "message": "Пожалуйста, выберите ваши языковые предпочтения:", "submit": "Разместить"}
+};
+        const store = window.WebChat.createStore(
+            {}, 
+            function(store) {
+              return function(next) {
+                return function(action) {
+                  if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
+                    store.dispatch({
+                        type: 'WEB_CHAT/SEND_EVENT',
+                        payload: {
+                            name: 'webchat/join',
+                            value: { language: window.navigator.language }
+                        }
+                    });
+                  }
+                  if (action.type === 'DIRECT_LINE/INCOMING_ACTIVITY') { 
+                    var event;
+                    if(typeof(Event) === 'function')
+                    {
+                          event = new Event('webchatincomingactivity');
+                    }
+                    else
+                    {
+                        event = document.createEvent('Event');
+                        event.initEvent('webchatincomingactivity', true, true);
+                    }
+                    
+                    event.data = action.payload.activity;
+                    if(event.data.value!=undefined && event.data.value.Action=='languageselector')
+                    {
+                      var agreeButton = document.querySelectorAll('.ac-pushButton')[0];
+                      DisableButton(agreeButton);
+                      var radios = document.getElementsByName('choiceset');
+                      for (var i = 0, r=radios, l=r.length; i < l;  i++){
+                        r[i].disabled = true;
+                      }
+                    }
+                    if(event.data.value!=undefined && event.data.value.Consent=='1')
+                    {
+                      document.querySelectorAll('[class="main"]')[0].style.display = "";
+                      var agreeButtons = document.querySelectorAll('.ac-pushButton');
+                      agreeButtons.forEach(function(agreeButton, index) {
+                        DisableButton(agreeButton);
+                      });
+                      
+                    }
+                        window.dispatchEvent(event);
+                  }
+                  else if (action.type === 'DIRECT_LINE/POST_ACTIVITY_FULFILLED') {
+                    //document.querySelector('ul[role="list"]').lastChild.scrollIntoView({behavior: 'smooth', block: 'start'});
+                    //Add event listener to change the language
+                    var radios = document.getElementsByName('choiceset');
+                    var prev = null;
+                    for (var i = 0; i < radios.length; i++)
+                    {
+                      radios[i].addEventListener('change', function() {
+                        //(prev) ? console.log(prev.value): null;
+                          if (this !== prev) {
+                            // Switch language
+                            var elements = document.querySelectorAll('.ac-container > .ac-textBlock > p');
+                            var titleEle = elements[0];
+                            titleEle.innerHTML = selectLanguageData[this.value]["title"];
+                            var messageEle = elements[1];
+                            messageEle.innerHTML = selectLanguageData[this.value]["message"];
+                            var submitTextEle = document.querySelector(".ac-actionSet > button > div");
+                            submitTextEle.innerHTML = selectLanguageData[this.value]["submit"];
+                            prev = this;
+                          }
+                          console.log(this.value);
+                        });
+                    }
+                  };
+                  return next(action);
+                }
+              }
+            }
+          );
+         window.WebChat.renderWebChat(
+	    {
+        adaptiveCardsHostConfig: {
+          "fontFamily": "Calibri, sans-serif",
+          "fontSizes": {
+            "small": 12,
+            "default": 14,
+            "medium": 17,
+            "large": 21,
+            "extraLarge": 26
+          }
+        },
+            directLine: window.WebChat.createDirectLine({
+                secret: 'JX40g7F2eBo.O4uF-oBzXskfsYsfikUgKMVakS0xhaYxjR_rtKl9W1g'
+            }),
+            locale: 'en-US',
+               botAvatarInitials: 'WC',
+               userAvatarInitials: 'WW',
+               styleOptions: {
+                  hideUploadButton: true,
+		  avatarSize: 40,
+                  botAvatarImage: 'https://bellevue.thirdlight.com/pf.tlx/AJrAfAJ_iPCX'
+               },
+            store: store
+          }, document.getElementById('webchat'));
+
+         
+         document.querySelectorAll('[data-id="webchat-sendbox-input"]')[0].setAttribute("placeholder", "Type Your Question");
+         // Hide the Send Box when starting
+         document.querySelectorAll('[class="main"]')[0].style.display = "none";
+         
+        
+         var chatHistory = document.getElementById("webchat");
+         chatHistory.scrollTop = chatHistory.scrollHeight - chatHistory.clientHeight;
+         var sendBox = document.querySelectorAll('.css-16qahhi.css-n2zczk.css-1mou18w.css-1fe8kfc')[0];;
+         sendBox.style["border-style"] = "solid";
+         sendBox.style["border-width"] = "thin";
+      
+         document.querySelector('#webchat > *').focus();
+    </script>
+  </body>
+</html>
